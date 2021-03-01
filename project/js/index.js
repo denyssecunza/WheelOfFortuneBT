@@ -148,7 +148,7 @@ window.onload = function(){
  * 
  * 
  */
-
+const title = document.getElementById("wtitle")
 const congrats = document.getElementById('win-lose')
 let gameWon = true;
 function isCorrect(){
@@ -163,7 +163,8 @@ function isCorrect(){
         }
     }
     if(gameWon === true){
-        body.style.backgroundColor = "green";
+        wordDiv.style.backgroundColor = "green";
+        title.style.backgroundColor = 'green';
         const winner =  document.createElement('h1');
         const won = document.createTextNode("CONGRATS WORD CORRECT!")
         winner.appendChild(won);
