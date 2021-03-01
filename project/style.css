@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+
+}        
+
+
+
+#wtitle{
+    display: table;
+    margin: auto;
+    font-family: "Copperplate"
+}
+
+#word{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: "Papyrus"
+}
+
+
+#gameStart{
+    display: block;
+    margin: 0 auto;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    font-size: 24px;
+    font-family: "Copperplate";
+}
+
+#rules{
+    padding: 1em;
+    text-align: center;
+    /* font-family: "Book Antique"; */
+    font-family: "Copperplate";
+}
+
+#guess{
+    display: flex;
+    justify-content: center;
+}
+
+#final{
+    padding: 1em;
+    text-align: center;
+    /* font-family: "Goudy Old Style"; */
+    font-family: "Copperplate";
+}
+
+#final-guess{
+    display: flex;
+    justify-content: center;
+}
+
+#you-guessed{
+    padding: 1em;
+    text-align: center;
+    /* font-family: "Impact" */
+    font-family: "Copperplate";
+}
+
+#guess-arr{
+    display: flex;
+    justify-content: center;
+    font-family: "Monaco";
+    
+}
+
+#win-lose{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: "Apple Chancery";
+    font-size: "1100px";
+    padding: 1em;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+
+/* .wrapper {
+    position: relative;
+    min-height: "100px";
+}
+
+[class|="confetti"] {
+    position: absolute; 
+}
+
+.red {
+    background-color: #d13447;
+}
+
+.yellow {
+    background-color: #ffbf00;
+}
+
+.blue {
+    background-color: #263672;
+}
+ */

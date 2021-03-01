@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wheel of Fortune!</title>
-    <script src="./js/randomWord.js"></script>
-    <script src="./js/index.js"></script>
-
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 <body>
-    
+    <div id="win-lose">
+    </div>
+    <div id="wheel-title">
+        <h1 id="wtitle" style = "font-size: 65px; text-align: center;" >Wheel of Fortune</h1>
+    </div>
+    <div id="word" style = "text-align: center;">
+    </div>
+    <button id="gameStart" >Start Game</button>
+    <h3 id= "rules">Enter Only 3 Consonants and 1 Vowel:</h3>
+    <form id="guess"> 
+            <input type="text" id="guessed-letters" maxlength="1" />
+    </form> 
+    <h3 id='final'>Final Guess:</h3>
+    <form id="final-guess">
+        <input type="text" id="final-letters"/>
+    </form>
+    <h3 id="you-guessed">You Guessed: </h3>
+    <div id= "guess-arr">
+    </div>
 </body>
+<script src="./js/randomWord.js"></script>
+<script src="./js/index.js"></script>
 </html>
