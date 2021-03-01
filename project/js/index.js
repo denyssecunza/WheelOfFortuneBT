@@ -171,7 +171,8 @@ function isCorrect(){
         congrats.appendChild(winner);
     }
     else{
-        body.style.backgroundColor = "#cc0000";
+        wordDiv.style.backgroundColor = "#cc0000";
+        title.style.backgroundColor = "#cc0000";
         const loser =  document.createElement('h1');
         const lost = document.createTextNode("SORRY YOU LOST")
         loser.appendChild(lost);
